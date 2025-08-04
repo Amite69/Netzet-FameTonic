@@ -33,7 +33,27 @@ This project is a pixel-perfect frontend implementation of the **FameTonic Home 
 ## 📁 Project Structure
 
 ```bash
-
+src/
+├── app/                    # Application core and routing
+├── components/             # Reusable UI components
+│   ├── landing/           # Landing page specific components
+│   │   ├── HeroSection.tsx
+│   │   └── index.ts
+│   ├── layout/            # Layout and structural components
+│   │   ├── Header.tsx
+│   │   ├── index.ts
+│   │   └── SaleBanner.tsx
+│   └── ui/                # Base UI components (buttons, inputs, etc.)
+│       ├── Button.tsx
+│       ├── FeatureItem.tsx
+│       ├── index.ts
+│       └── NavMenu.tsx
+├── lib/                   # Utility functions and configurations
+├── types/                 # TypeScript type definitions
+│   ├── index.ts
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout component
+│   └── page.tsx       
 
 📌 Key Notes
 
